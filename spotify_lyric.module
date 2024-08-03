@@ -1,13 +1,10 @@
-﻿#!name=Spotify歌词翻译
+#!name=Spotify歌词翻译
 
 #!desc=自行修改自己的appid和密钥
 
 [Script]
 
-spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js,argument=appid=20240803002115369&securityKey=EGzuskueQRzoh1l2AiHM
-
-
-
+spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/,requires-body=1,binary-body-mode=1,max-size=0,script-path=https: //raw.githubusercontent.com/app2smile/rules/master/js/spotify-lyric.js,argument=appid=20240803002115369&securityKey=EGzuskueQRzoh1l2AiHM
 /*
 
 
@@ -27,9 +24,6 @@ spotify歌词翻译 = type=http-response,pattern=^https:\/\/spclient\.wg\.spotif
 
 
 */
-
-
-
 [MITM]
 
 hostname = %APPEND% spclient.wg.spotify.com
