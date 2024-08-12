@@ -1,5 +1,13 @@
-#!name=Tartarus iOS Script Module
-#!desc= 幕布解锁
+#!name=幕布解锁
+
+#!desc=幕布解锁会员
+
+#!homepage=https://www.sujiawen.com
+
+#!author=jiawen1929
+
+#!icon=https://raw.githubusercontent.com/deezertidal/private/main/icons/adguard.png
+
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) JP 307
